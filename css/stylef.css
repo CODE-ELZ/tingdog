@@ -1,0 +1,206 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.main-nav{
+
+    float:left;
+    list-style: none;
+    margin-top: 10px;
+    position: absolute;
+    top: 1%;
+    left: -2%;
+
+}
+
+.main-nav li {
+
+    display: inline-block;
+
+}
+
+.main-nav li a {
+    color: #734488;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Rotboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li a:hover {
+
+    border: 1px solid #a37eba;
+    background-color: #ffe2e2;
+  transition: all 0.1s ease-in;
+
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+body {
+  margin: 0px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* it cancal all defualt margin*/
+  text-align: center;
+  /* one way to center my elements*/
+  font-family: 'Merriweather', serif;
+}
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #734488;
+  border-width: 10px;
+  width: 5%;
+}
+h1 {
+  font-size: 5.625rem;/*100% = 16px = 1em , 90px/16 = 562.5% = 5.625em/rem */
+  margin: 50px, auto 0, auto 0;
+  font-family: 'Sacramento', cursive;/*only px/rem don'change n size & it's static*/
+  color:#11999E;
+  line-height: 2;
+  /* best of all is rem
+display: inline;*/
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.top-container {
+  background-color: #bff4ed;
+  position: relative;
+  padding-top: 100px;
+}/*
+.web {
+  text-decoration: underline;
+  /*display: none;  none us it was never there*/
+  /*visibility: hidden; it is there but can't be seen*/
+/*}*/
+
+.t-cloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.b-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+  /*display: none;*/
+}
+.font-w{
+  font-weight: normal;
+  color: #734488;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.middle-container {
+
+}
+.p1{
+  color: #40514E;
+}
+.profile img{
+   border-radius: 50%;
+}
+.skills h2{
+  color: #66BFBF;
+}
+.skills h3{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left; /*every element aligned left*/
+  line-height: 2;/*2 with no units for line-height*/
+
+}
+/*
+.skill-row h3, p{
+  text-align:
+}*//* left; only for h3 & p
+
+.skill-row img{
+  width: 25%;
+}*/
+.mag1{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mag2{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me p{
+  margin-bottom: 4%;
+}
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   height: 30px;
+   line-height: 30px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 110px;
+   padding: 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #11999E 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.bottom-container {
+margin-top: 5%;
+background-color: #bff4ed;
+padding:50px;
+padding-bottom: 25px;
+}
+.footer-link{
+  margin: 20px;
+
+  color: #11999E;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #734488;
+}
+.copyright{
+  margin-top: 40px;
+  color: #461b93;
+}

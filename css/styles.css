@@ -1,0 +1,159 @@
+/* ///////////////////////Tags/////////////////////// */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* ///////////////////////1-Ids/////////////////////// */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+/* ///////////////////////2-Ids/////////////////////// */
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.featurest{
+    font-size: 1.5rem;
+}
+
+/* ///////////////////////3&4-Ids/////////////////////// */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+/* ///////////////////////5-Ids/////////////////////// */
+#pricing {
+    padding: 100px;
+}
+.sectionh{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* ///////////////////////6&7-Ids/////////////////////// */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+/* ///////////////////////1-Classes/////////////////////// */
+.container-fluid {
+    padding: 7% 15%;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    background-color: #ff4c68;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.bDownload {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+.re{
+    position: relative;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0);
+        position: static;
+      }
+}
+
+/* ///////////////////////2-Classes/////////////////////// */
+.f-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+/* ///////////////////////3&4-Classes/////////////////////// */
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3em;
+    line-height: 0.5;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* ///////////////////////5-Classes/////////////////////// */
+.pricing-col {
+    padding: 3% 2%;
+}
+.princingT{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* ///////////////////////6&7-Classes/////////////////////// */
+.ctah{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.gr{
+    margin: 20px 10px;
+}

@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.row{
+  padding-top: 10%;
+}
+
+.main-nav{
+    position: absolute;
+    float:left;
+    list-style: none;
+    margin-top: 6%;
+    margin-left: 40%;
+    position: absolute;
+    top: 1%;
+    left: -2%;
+
+}
+
+.main-nav li {
+
+    display: inline-block;
+
+}
+
+.main-nav li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Rotboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li a:hover {
+
+
+    background-color: #ffe2e2;
+  transition: all 0.1s ease-in;
+
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.top-container{
+  background-image:url(../img/tree.png);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.top-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.bow{
+  -webkit-filter: brightness(1);
+filter: brightness(1);
+  padding-left: 30%;
+  padding-top: 5%;
+}
+
+body {
+  margin: 0px;
+  color: white;
+  background-color: #FFFFFF;
+  /* it cancal all defualt margin*/
+  text-align: left;
+  /* one way to center my elements*/
+  font-family: 'Merriweather', serif;
+}
+
+.bot{
+  margin-top: 0;
+  background-color: #ffffff;
+  padding:50px;
+  padding-bottom: 25px;
+text-align: center;
+}
+.copyright{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.li{
+  padding-bottom:8px;
+}
+.h1{
+  color: black;
+  position: absolute;
+  bottom: 90%;
+  right: 38%;
+}
+
+.footer-link{
+  margin: 20px;
+
+  color: #000000;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #11999E;
+}
